@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="618dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="367dp"
+            android:layout_height="272dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="326dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="362dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="334dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/inriaserif_bold"
+            android:text="Köttbullar goda"
+            android:textIsSelectable="true"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="372dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="275dp"
+            android:fontFamily="@font/inriaserif_bold"
+            android:singleLine="true"
+            android:text="Netto hejhejGade"
+            android:textIsSelectable="true"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/newPrice"
+            android:layout_width="314dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginRight="140dp"
+            android:layout_marginBottom="108dp"
+            android:text="Price: 10DKK"
+            android:textSize="20sp"
+            android:fontFamily="@font/istokweb_bold"/>
+
+        <TextView
+            android:id="@+id/originalPrice"
+            android:layout_width="216dp"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginEnd="138dp"
+            android:layout_marginRight="138dp"
+            android:layout_marginBottom="90dp"
+            android:text="Old price: 25DKK"
+            android:textSize="16sp"
+            android:fontFamily="@font/istokweb_regular"/>
+
+        <TextView
+            android:id="@+id/discountPercent"
+            android:layout_width="186dp"
+            android:layout_height="152dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="163dp"
+            android:layout_marginLeft="153dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginBottom="58dp"
+            android:background="@drawable/circle_background"
+            android:paddingLeft="25dp"
+            android:paddingTop="22dp"
+            android:rotation="5"
+            android:text="26%"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:fontFamily="@font/istokweb_bold"
+            />
+
+        <TextView
+            android:id="@+id/visitStore"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/rectangle_background"
+            android:letterSpacing="0.2"
+            android:paddingLeft="18dp"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="6"
+            android:text="VISIT THE STORE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:fontFamily="@font/istokweb_bold"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/discount"
+            android:layout_width="173dp"
+            android:layout_height="131dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginBottom="2dp"
+            android:rotation="5"
+            android:text="discount"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/istokweb_bold"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

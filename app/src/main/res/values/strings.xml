@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">StoreDiscount</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_price_format">Price: %1$s DKK</string>
+
+    <string-array name="sort_options">
+        <item>Sort by price</item>
+        <item>Sort by discount %</item>
+        <item>Sort by name</item>
+    </string-array>
+
+    <string name="description_full_image">Full view of the product image</string>
+
+
+</resources>
